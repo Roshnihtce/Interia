@@ -1,0 +1,97 @@
+// ------- Custom Variables ------- //
+
+// Theme Colors
+$accent:          #FFB238;
+$primary:         #212828;
+$secondary:       #131616;
+$charcoal-black:  #191D1D;
+$nutral-gray:     #6D7D7D;
+$light-gray:      #D9D9D9;
+
+// Custom theme colors
+$custom-colors: (
+  "accent": $accent,
+  "primary": $primary,
+  "secondary": $secondary,
+  "charcoal-black": $charcoal-black,
+  "nutral-gray": $nutral-gray,
+  "light-gray": $light-gray,
+);
+
+// Container width
+$custom-container-max-widths: (
+  xxl: 1140px
+);
+
+// Font families
+$heading-font-family: "Kanit", sans-serif;
+$font-family-base: "Nunito", sans-serif;
+
+// Font colors
+$body-bg: $nutral-gray;
+$body-color: #fff;
+
+// Font sizes
+$font-size-base: 1rem;
+$h1-font-size: $font-size-base * 2.5;
+
+// Spacers
+$spacer: 1rem;
+$spacers: (
+  0: 0,
+  1: $spacer * .5,
+  2: $spacer,
+  3: $spacer * 1.25,
+  4: $spacer * 1.5,
+  5: $spacer * 3,
+  6: $spacer * 4.5,
+  7: $spacer * 5,
+);
+
+// Position Values
+$position-values: (
+  0: 0,
+  5: 5%,
+  10: 10%,
+  15: 15%,
+  50: 50%,
+  100: 100%,
+);
+
+// Navigation
+$nav-link-color: #fff;
+
+// (Optional) Custom grid breakpoints if needed
+$custom-grid-breakpoints: ();
+
+// ------- Bootstrap Import Order ------- //
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/mixins";
+
+// Map overrides
+$container-max-widths: map-merge($container-max-widths, $custom-container-max-widths);
+$grid-breakpoints: map-merge($grid-breakpoints, $custom-grid-breakpoints);
+$theme-colors: map-merge($theme-colors, $custom-colors);
+
+// Our Custom Partials
+@import './header.scss';
+@import './banner_section.scss'; // use extension for clarity
+@import './footer.scss';
+
+// Bootstrap Main 
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+// ------- Base Typography ------- //
+@import './typography.scss'; // <- Add this if you have a base typography file
+
+
+body {
+  font-family: $font-family-base;
+  background-color: $body-bg;
+  color: $body-color;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $heading-font-family;
+}
