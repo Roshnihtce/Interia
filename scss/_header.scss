@@ -1,0 +1,29 @@
+/* Navbar links */
+.navbar .nav-link {
+  color: white;
+  font-size: 16px;
+  transition: color 0.3s ease;
+
+  &:hover {
+    color: #6c2ffc;
+  }
+}
+
+/* Custom button */
+.custom-button {
+  font-family: 'Kanit', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: white;
+  padding: 8px 30px;
+  border-radius: 50px;
+  border: 1px solid white;
+  background-color: transparent;
+  transition: all 0.3s ease-in-out;
+  display: inline-block;
+
+  &:hover {
+    color: black;
+    transform: scale(1.05);
+  }
+}
