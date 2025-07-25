@@ -1,0 +1,14 @@
+.hero-banner {
+  background-image: url('../images/banner_image.webp');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;  
+  padding-top: 250px;
+  padding-bottom: 157px;
+}
+
+.rotate-text {
+  transform: rotate(-90deg);
+  transform-origin: left top; 
+  display: inline-block;     
+}
