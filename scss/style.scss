@@ -50,9 +50,9 @@ $spacers: (
   70: $spacer * 7,   // 70px
   80: $spacer * 8,   // 80px
   100: $spacer * 10, // 100px
-  127: $spacer *12.7,
-  130: $spacer *13,
-  160: $spacer *16,
+  127: $spacer *12.7,// 127px
+  130: $spacer *13, // 130px
+  160: $spacer *16, // 160px
   200: $spacer * 20, // 200px
   250: $spacer * 25  // 250px
 );
@@ -104,13 +104,6 @@ $theme-colors: map-merge($map1: $theme-colors, $map2: $custom-colors );
   margin-left: -20px;
 
 }
-
-
-
-
-
-
-
 
 
 // ------- Base Typography ------- //
