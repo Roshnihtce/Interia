@@ -1,6 +1,23 @@
+.blending{
+  top: 60px;
+} 
+
 .custom-rounded-left {
-  border-top-left-radius: 50px;
-  border-bottom-left-radius: 50px;
-  border-top-right-radius: 0;
-  border-bottom-right-radius: 0;
+  // border-top-left-radius: 50px;
+  // border-bottom-left-radius: 50px;
+  // border-top-right-radius: 0;
+  // border-bottom-right-radius: 0;
+  object-fit: cover; /* optional: ensures image scales nicely */
+  // width: 100%;
+  // height: 100%;
+
 }
+
+// .img-wrapper-rounded-left {
+//   border-top-left-radius: 50px;
+//   border-bottom-left-radius: 50px;
+//   overflow: hidden;
+//   height: 100%;
+// }
+
+
