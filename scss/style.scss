@@ -1,11 +1,12 @@
 // ------- Custom Variables ------- //
 
 // Theme Colors
-$primary: #212828;
+$primary: #191D1D;
 $secondary: #131616;
-$charcoal-black: #191D1D;
+$charcoal-black:#212828 ;
 $nutral-gray: #6D7D7D;
 $light-gray: #D9D9D9;
+
 
 // Custom theme colors
 $custom-colors: (
@@ -26,8 +27,9 @@ $heading-font-family: "Kanit", sans-serif;
 $font-family-base: "Nunito", sans-serif;
 
 // Font colors
-// $body-bg: $secondary;
+$body-bg: $primary;
 $body-color: #fff;
+
 
 // Font sizes
 $font-size-base: 1rem;
@@ -86,17 +88,19 @@ $theme-colors: map-merge($map1: $theme-colors, $map2: $custom-colors );
 // Our Custom Partials
 @import './header.scss';
 @import './banner_section';
-@import './about_section';
 @import './blending_creativity';
-// @import './team_section';
-// @import './interior_design';
-// @import './interior_section';
-// @import './blog_section';
-// @import './footer.scss';
+@import './team_section';
+@import './blog_section';
+@import './footer.scss';
 
 
 
 
+
+.m-n1{
+  margin-left: -20px;
+
+}
 
 
 
