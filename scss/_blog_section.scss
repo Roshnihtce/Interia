@@ -1,6 +1,19 @@
-.form-control{
-    background-color: $secondary !important;
-    border: none !important;
+/* Input styling */
+.custom-input {
+  background-color: $primary; 
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 15px;
+  outline: none;
 }
 
+
+
+/* Responsive tweaks */
+@media (max-width: 767px) {
+  .custom-button {
+    margin-top: 10px;
+  }
+}
 
