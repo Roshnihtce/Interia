@@ -91,6 +91,7 @@ $theme-colors: map-merge($map1: $theme-colors, $map2: $custom-colors );
 // Our Custom Partials
 @import './header.scss';
 @import './banner_section';
+@import'./about_section';
 @import './blending_creativity';
 @import './team_section';
 @import './blog_section';
