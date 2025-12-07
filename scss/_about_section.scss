@@ -1,65 +1,67 @@
-/* Desktop Default Styling */
-.about-section h3 {
-  font-size: 2rem;
-}
-.about-section p {
-  font-size: 1rem;
-}
-.stat-box h2 {
-  font-size: 2rem;
-}
-
-/* Tablet View (Screen width up to 992px) */
-@media (max-width: 992px) {
-  .about-section h3 {
-    font-size: 1.6rem;  
-  }
-  .about-section p {
-    font-size: 0.95rem;  
-  }
-  .col-lg-6.d-flex img {
-    width: 48%;          
-  }
+.custom2-button {
+  font-family: 'Kanit', sans-serif;
+  font-size: 0.9375rem;
+  display: inline-block;
+  margin-top: 0.625rem;
+  color: white;
+  border: 1px solid white;
+  border-radius: 3.125rem;
+  padding: 0.625rem 1.875rem;
+  background-color: transparent;
+  transition: all 0.3s ease;
 }
 
+.custom2-button:hover {
+  background-color: white;
+  color: black;
+}
 
-/*  Mobile (max-width: 768px) */
-@media (max-width: 768px) {
-  .col-lg-6.d-flex {
-    flex-direction: column;  
+//-------- Responsive design-----------//
+@media (min-width: 1200px) {
+  .m-n10 {
+    margin-left: -3.4375rem;
   }
-  .col-lg-6.d-flex img {
-    width: 100%;
-    margin-bottom: 10px;
-  }
-  .about-section h3 {
-    font-size: 1.3rem;
-    text-align: center;
-  }
-  .about-section p {
-    text-align: center;
-  }
-  .custom-button {
-    display: inline-block;
-    text-align: center;
-    margin: 0 auto;
-  }
-  .d-flex.justify-content-between {
-    flex-direction: column;
-    align-items: center;
-  }
-  .stat-box {
-    width: 100%;
-    margin-bottom: 15px;
+
+  .m-n15 {
+    margin-left: -6.25rem;
   }
 }
 
-/*  Small Mobile (max-width: 480px) */
-@media (max-width: 480px) {
-  .about-section h3 {
-    font-size: 1.1rem;
+
+@media (min-width: 576px) {
+  .m-n10 {
+    margin-left: -3rem;
   }
-  .stat-box h2 {
-    font-size: 1.5rem;
+}
+
+
+@media (max-width: 1200px) and (min-width: 576px) {
+  .custom2-button {
+    position: relative;
+    top: 11.25rem;
+    left: 2.5rem;
+    right: 0.625rem;
   }
+  .about .left-column,
+  .about .right-column {
+    
+    justify-content: center;
+  }
+}
+@media (max-width:576px) {
+
+  .about h3 {
+    font-size: 1rem;
+  }
+
+  .about p {
+    font-size: 0.6875rem;
+  }
+
+  .about .left-column,
+  .about .right-column {
+    
+    justify-content: center;
+  }
+
 }

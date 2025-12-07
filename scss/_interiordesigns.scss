@@ -1,0 +1,34 @@
+
+/* ---------- Responsive design ---------- */
+@media (max-width: 768px) {
+  .design-section::before {
+    display: none; 
+  }
+
+  .design-section h2 {
+    font-size: 1.4rem;
+  }
+
+  .design-section p {
+    font-size: 0.9rem;
+  }
+
+  .design-section a.small {
+    font-size: 0.8rem;
+  }
+
+  .design-row {
+    margin-bottom: 2rem;
+  }
+}
+
+
+@media (max-width: 1200px){
+  .interior h2{
+    font-size: 1.25rem;
+  }
+  .interior p{
+    font-size :0.75rem;
+  }
+}
+

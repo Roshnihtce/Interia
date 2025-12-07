@@ -3,12 +3,37 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;  
-  padding-top: 250px;
-  padding-bottom: 157px;
+  padding-top: 15.62rem;
+  padding-bottom: 9.81rem;
 }
 
 .rotate-text {
   transform: rotate(-90deg);
   transform-origin: left top; 
-  display: inline-block;     
+  display: inline-block; 
+
+
+  position: relative;
+  top : 1.875rem;
+  left: 0.625rem;
+  right: 1.25rem;
+  
+}
+
+
+.video-banner{
+  position: relative;
+  top : -1.25rem;
+  left: 0.625rem;
+  right: 1.25rem;
+}
+/* Responsive design */
+@media (max-width: 576px) {
+    .hero-banner .container h1{
+      font-size:  1.5625rem;      
+    }
+    .hero-banner .container p{
+      font-size:  0.75rem;
+      
+    }
 }

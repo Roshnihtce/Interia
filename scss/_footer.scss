@@ -1,32 +1,146 @@
-.nav-link,
-.footer-link {
-  font-size: 14px;
-  transition: all 0.3s ease;
+ .nav-link,
+ .footer-link {
+   font-size: 0.875rem;
+   transition: all 0.3s ease;
 
-  &:hover {
-    color: black !important;  
-    transform: scale(1.05);
-  }
+   &:hover {
+     color: rgb(169, 54, 223) !important;  
+     transform: scale(1.05);
+   }
+}
+/* Social Icons */
+.social-icon-wrapper {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    border: 1px solid #6D7D7D;      
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    transition: all 0.3s ease; 
+    cursor: pointer;
 }
 
-.nav-icon {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 36px;
-  height: 36px;
-  transition: transform 0.3s ease, border-color 0.3s;
+ /*Hover effect */
+.social-icon-wrapper:hover {
+    background-color: rgba(72, 67, 67, 0.1); 
+    transform: scale(1.2);               
+}
 
-  img {
-    width: 100%;
-    height: auto;
-    transition: transform 0.3s ease;
-  }
+.social-icon {
+    width: 1.25rem;
+    height: 1.25rem;
+    transition: all 0.3s ease;
+}
 
-  &:hover img {
-    transform: scale(1.1);
+.social-icon-wrapper:hover .social-icon {
     filter: brightness(1.2);
+}
+
+/* Base Styles (Desktop First) */
+footer {
+  color: white;
+}
+
+footer .social-icon {
+  width: 1.75rem;
+  height: 1.75rem;
+  transition: transform 0.3s ease;
+}
+
+footer .social-icon:hover {
+  transform: scale(1.1);
+}
+
+footer .footer-link:hover {
+  color: white;
+}
+
+/* Medium devices (Tablet: 768px–1199px) */
+@media (max-width: 1199px) and (min-width: 768px) {
+  footer .nav {
+    justify-content: start !important;
+    gap: 15px;
   }
 
+  footer .col-md-8,
+  footer .col-md-4 {
+    text-align: center;
+    padding-top: 5rem !important;
+    padding-bottom: 3.125rem !important;
+  }
+
+  footer .social-icon {
+    width: 1.625rem;
+    height: 1.625rem;
+  }
+
+  footer p.small {
+    font-size: 0.875rem;
+  }
+}
+
+/* Small devices (Mobile: ≤767px) */
+@media (max-width: 767px) {
+  footer .row {
+    text-align: center !important;
+  }
+
+  footer .col-md-8,
+  footer .col-md-4 {
+    padding-top: 3.125rem !important;
+    padding-bottom: 2.5rem !important;
+  }
+
+  footer .nav {
+    flex-direction: column;
+    gap: 0.625rem;
+  }
+
+  footer .nav-link {
+    font-size: 0.875rem;
+    padding: 0.1875rem 0;
+  }
+
+  footer .social-icon-wrapper {
+    margin-bottom: 0.625rem;
+  }
+
+  footer .social-icon {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+
+  footer p.small {
+    font-size: 0.8125rem;
+    line-height: 1.6;
+  }
+
+  footer section.bg-primary {
+    text-align: center;
+  }
+
+  footer section.bg-primary .container {
+    flex-direction: column !important;
+    gap: 0.625;
+  }
+
+  footer .footer-link {
+    display: inline-block;
+    margin: 0.3125rem;
+  }
+}
+
+
+@media (max-width: 1200px) {
+
+  .social-icons .small{
+    font-size: 0.75rem;
+
+  }
+ 
+  
 
 }
+

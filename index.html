@@ -4,10 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interia</title>
     <meta name="author" content="Roshni Singh">
     <meta name="description"
         content="Interia is a refined, visually elegant single-page website template crafted for interior designers, architecture studios, and home decor consultants. The design emphasizes modern aesthetics, clean layouts, and strong visuals to showcase projects, services, and client credibility.">
-    <title>Interia</title>
+    <meta name="keywords"
+        content="interior design, best interior design studio in London, room aesthetic design, modern home decor, creative and functional design, professional interior designers, certified design team, architecture studio, furniture design, landscape design, interior decoration, home interior solutions, luxury interior design, modern furniture, home styling, space planning, decor consultancy, design projects London">
+    <meta name="robots" content="noindex nofollow">
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -15,20 +18,20 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
         rel="stylesheet">
-    <!-- Bootstrap link -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
 
     <!-- Css files -->
     <link rel="stylesheet" href="./css/style.min.css">
 </head>
 
 <body>
-    <!-- Header ssection -->
+    <!--********* Header ssection ********* -->
     <header class="fixed-top">
-        <nav class="navbar navbar-expand-lg">
-            <div class="container ">
-                <a class="navbar-brand text-white" href="#">I N T E R I A</a>
+        <nav class="navbar navbar-expand-lg bg-primary py-lg-3">
+            <div class="container">
+                <a class="navbar-brand nav-link text-white" href="index.html"
+                    aria-label="click here to go to interia Home Page">
+                    I N T E R I A
+                </a>
 
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -37,28 +40,41 @@
 
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ms-auto gap-lg-5">
-                        <li class="nav-item"><a class="nav-link" href="#">home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">pages</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">services</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">team</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">blog</a></li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" aria-label="Go to Home page">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" aria-label="View Pages section">Pages</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" aria-label="Explore Services section">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" aria-label="Meet our Team">Team</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" aria-label="Read our Blog">Blog</a>
+                        </li>
+
                     </ul>
 
                     <div class="ms-lg-4 mt-3 mt-lg-0">
-                        <a href="#" class="custom-button text-decoration-none">G E T&nbsp;&nbsp;S T A R T E D</a>
+                        <a href="#" class="custom-button text-decoration-none"
+                            aria-label="Get started with our interior design services">G E T&nbsp;&nbsp;S T A R T E
+                            D</a>
                     </div>
                 </div>
             </div>
         </nav>
     </header>
 
-
+    <!--********* Main section ********** -->
     <main>
         <!-- Banner Section -->
         <section class="hero-banner bg-hero-image">
             <div class="container">
-                <h1 class="mb-3 text-end">We design your room aesthetic</h1>
-                <p class="mb-4 text-end">Lectus quam id leo in vitae turpis nisi porta lorem mollis.</p>
+                <h1 class="mb-3 text-sm-end text-center">We design your room aesthetic</h1>
+                <p class="mb-4 text-sm-end text-center">Lectus quam id leo in vitae turpis nisi porta lorem mollis.</p>
                 <div class="d-flex justify-content-center align-items-center mt-60">
                     <div class="video-banner">
                         <!-- Play Button -->
@@ -96,66 +112,73 @@
             </div>
         </section>
 
-
-        <!-- About section  -->
-        <section class="pt-50 pb-200 ">
+        <!-- About Section -->
+        <section class="about pt-50 pb-200">
             <div class="container">
-                <div class="row">
+                <!-- Text content -->
+                <div class="text-content text-center text-xl-start mb-5">
                     <h2 class="pb-2 small text-nutral-gray">A B O U T</h2>
-                    <h3 class="pb-5">We are the best interior design studio in London</h3>
-                    <p class="pb-6">Posuere urna nec tincidunt praesent. Egestas maecenas pharetra
-                        <span class="d-block">convallis posuere. Ipsum nunc aliquet bibendum enim.</span>
-                        Sem integer vitae justo eget magna fermentum iaculis eu non.
+                    <h3 class="pb-4 fw-semibold ">We are the best interior design studio in London</h3>
+                    <p class="pb-3 text-white ">
+                        Posuere urna nec tincidunt praesent. Egestas maecenas pharetra
+                        <span class="d-block">
+                            convallis posuere. Ipsum nunc aliquet bibendum enim. Sem integer
+                        </span>
+                        vitae justo eget magna fermentum iaculis eu non.
                     </p>
-                    <div class="col-xl-6 d-flex  gap-3">
-                        <img src="./images/interior_design1.webp"alt="Interior"
-                            class="img-fluid">
-                        <img src="./images/interior_design2.webp"  class="img-fluid"
-                             alt="Interior">
+                </div>
+
+                <div class="row ">
+                    <!-- Left column images -->
+                    <div class="col-xl-6 d-flex left-column  flex-wrap gap-3 mb-5">
+                        <img src="./images/interior_design1.webp" alt="Interior Design 1" class="img-fluid">
+                        <img src="./images/interior_design2.webp" alt="Interior Design 2" class="img-fluid">
                     </div>
 
+                    <!-- Right column content -->
                     <div class="col-xl-6">
-                        <img src="./images/interior_design3.webp" alt="Interior "
-                            class="img-fluid justify-content-between ">
-                        <div class="d-flex justify-content-end mb-50 ">
-                            <a class="custom-button text-decoration-none mb-3" href="#">L E A R N&nbsp;&nbsp;A B O U
-                                T</a>
+                        <div class="d-flex justify-content-xl-between right-column flex-wrap gap-3">
+                            <img src="./images/interior_design3.webp" alt="Interior Design 3" class="img-fluid m-n10">
+                            <div class="">
+                                <a class="custom2-button text-decoration-none" href="#" aria-label="Learn About">
+                                    L E A R N&nbsp;&nbsp;A B O U T
+                                </a>
+                            </div>
                         </div>
 
-                        <div class="d-flex flex-wrap justify-content-evenly gap-2 pb-6">
-                            <div>
-                                <h2 class="text-nutral-gray">2K+</h2>
+                        <div class="d-flex flex-wrap justify-content-evenly m-n15 gap-3 mt-8">
+                            <div class="text-center">
+                                <h2 class="text-nutral-gray mb-1">2K+</h2>
                                 <p class="small">P R O J E C T S <span class="d-block">D O N E</span></p>
                             </div>
-                            <div>
-                                <h2 class="text-nutral-gray">20+</h2>
+                            <div class="text-center">
+                                <h2 class="text-nutral-gray mb-1">20+</h2>
                                 <p class="small">P R O <span class="d-block">T E A M S</span></p>
                             </div>
-                            <div>
-                                <h2 class="text-nutral-gray">300+</h2>
+                            <div class="text-center">
+                                <h2 class="text-nutral-gray mb-1">300+</h2>
                                 <p class="small">G L O B A L <span class="d-block">C L I E N T S</span></p>
                             </div>
                         </div>
-
                     </div>
                 </div>
             </div>
         </section>
 
         <!-- Blending creativity and functionality section -->
-        <section class="text-white position-relative py-5 section-move-up">
+        <section class="text-white position-relative py-5  section-move-up">
             <div class="container blending  position-absolute  start-50 translate-middle ">
                 <div class="row bg-charcoal-black rounded-5 overflow-hidden  align-items-center">
 
 
                     <!-- Left Image -->
-                    <div class="col-md-5 img-wrapper-rounded-left">
-                        <img src="./images/blending_creativity.webp" 
-                            alt="Blending Creativity" class="img-fluid custom-rounded-left ms-0" />
+                    <div class="col-md-5 img-wrapper-rounded-left p-0">
+                        <img src="./images/blending_creativity.webp" alt="Blending Creativity"
+                            class="img-fluid custom-rounded-left" />
                     </div>
 
 
-                    <!-- Right Content -->
+                    <!-- Right Content  -->
                     <div class="col-md-6 text-center text-md-start p-4">
                         <h2>
                             Blending creativity and <span class="d-block">functionality in every design</span>
@@ -166,127 +189,144 @@
                 </div>
             </div>
         </section>
+
         <!-- Team section -->
-        <section class="pt-250 pb-5 bg-secondary">
-            <div class="container  ">
-                <div class="row ">
-                    <!--Left Column  -->
-                    <div class="col-lg-5">
+        <section class="team pt-250 pb-md-100 pb-50 bg-secondary">
+            <div class="container">
+                <div class="row">
+                    <!-- Left Column -->
+                    <div class="col-lg-6">
                         <h2 class="text-nutral-gray small fs-6">T E A M S</h2>
-                        <h3 class="mb-5">
-                            Projects are handled by <span class="d-block">professional certified teams</span>
+                        <h3 class="mb-25">
+                            Projects are handled by <span class="d-block">professional certified <span
+                                    class="d-block">teams</span></span>
                         </h3>
-                        <p class="mb-5">
+                        <p class="mb-75">
                             Posuere urna nec tincidunt praesent egestas maecenas
                             <span class="d-block">pharetra convallis posuere ipsum nunc aliquet bibendum</span>
                             enim consectetur adipiscing.
                         </p>
+
                         <div class="d-flex flex-column gap-2 flex-wrap mt-4">
                             <div class="d-flex align-items-center">
-                                <img src="./images/team_person1.svg" aria-lable="Teams" class="short-image image-fluid"
-                                    alt="Person">
-                                <img src="./images/team_person2.svg" aria-lable="Teams"
-                                    class="short-image image-fluid m-n1" alt="Person">
-                                <img src="./images/team_person3.svg" aria-lable="Teams"
-                                    class="short-image image-fluid m-n1" alt="Person">
-                                <img src="./images/team_person4.svg" aria-lable="Teams"
-                                    class="short-image image-fluid m-n1" alt="Person">
+                                <img src="./images/team_person1.svg" aria-label="Team member"
+                                    class="short-image img-fluid" alt="Team member 1">
+                                <img src="./images/team_person2.svg" aria-label="Team member"
+                                    class="short-image img-fluid m-n1" alt="Team member 2">
+                                <img src="./images/team_person3.svg" aria-label="Team member"
+                                    class="short-image img-fluid m-n1" alt="Team member 3">
+                                <img src="./images/team_person4.svg" aria-label="Team member"
+                                    class="short-image img-fluid m-n1" alt="Team member 4">
                             </div>
                             <div class="d-flex align-items-center gap-2">
-                                <img src="./images/stars.svg" aria-lable="Stars" alt="Stars"
-                                    class="rating-stars image-fluid">
+                                <img src="./images/stars.svg" aria-label="Star rating" alt="Star rating"
+                                    class="rating-stars img-fluid">
                                 <span class="small">(4.5 reviews)</span>
                             </div>
                         </div>
+
                         <p class="small text-nutral-gray mt-3">T R U S T E D&nbsp;&nbsp;B Y&nbsp;&nbsp;C U S T O M E R S
                         </p>
                     </div>
 
-                    <div class="col-lg-6 text-center text-lg-end">
-                        <div class="row g-3 justify-content-lg-end">
-                            <div class="col-12 d-flex justify-content-between align-items-start ">
-                                <img src="./images/team1.webp" class="img-fluid rounded team-img"
-                                    alt="Team Member 1">
-                                <img src="./images/team2.webp" class="img-fluid rounded team-img"
-                                    alt="Team Member 2">
+                    <!-- Right Column -->
+                    <div class="col-lg-6">
+                        <div class="row justify-content-lg-end g-3">
+                            <div class="col-6">
+                                <img src="./images/team1.webp" class="img-fluid rounded team-img" alt="Team Member 1">
                             </div>
-
-                            <div class="col-12  d-flex justify-content-between align-items-center">
-                                <div>
-                                    <a href="#" class="custom-button text-decoration-none mt-2">L E A R N&nbsp;&nbsp;T E
-                                        A M S</a>
-                                </div>
-                                <img src="./images/team3.webp" class="img-fluid rounded team-img"
-                                    alt="Team Member 3">
+                            <div class="col-6">
+                                <img src="./images/team2.webp" class="img-fluid rounded team-img" alt="Team Member 2">
+                            </div>
+                            <div class="col-6 align-items-start">
+                                <a href="#" class="custom-button text-decoration-none mt-140"
+                                    aria-label="Learn more about teams">
+                                    L E A R N &nbsp;&nbsp;T E A M S
+                                </a>
+                            </div>
+                            <div class="col-6">
+                                <img src="./images/team3.webp" class="img-fluid rounded team-img" alt="Team Member 3">
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="row justify-content-center align-items-center mt-5 text-center g-4">
+
+                <!-- Brand Logos -->
+                <div class="row justify-content-center align-items-center mt-5 text-center mt-75  g-4">
                     <div class="col-6 col-sm-4 col-md-3">
-                        <img src="./images/sparta_logo.svg" alt="Sparta Brand Logo" class="brand-logo">
+                        <img src="./images/sparta_logo.svg" alt="Sparta Brand Logo" class="brand-logo img-fluid">
                     </div>
                     <div class="col-6 col-sm-4 col-md-3">
-                        <img src="./images/allianzy_logo.svg" alt="Allianzy Brand Logo" class="brand-logo">
+                        <img src="./images/allianzy_logo.svg" alt="Allianzy Brand Logo" class="brand-logo img-fluid">
                     </div>
                     <div class="col-6 col-sm-4 col-md-3">
-                        <img src="./images/reys_ceramics_logo.svg" alt="Reys Ceramics Brand Logo" class="brand-logo">
+                        <img src="./images/reys_ceramics_logo.svg" alt="Reys Ceramics Brand Logo"
+                            class="brand-logo img-fluid">
                     </div>
                     <div class="col-6 col-sm-4 col-md-3">
-                        <img src="./images/fuda_furniture_logo.svg" alt="Fuda Furniture Brand Logo" class="brand-logo">
+                        <img src="./images/fuda_furniture_logo.svg" alt="Fuda Furniture Brand Logo"
+                            class="brand-logo img-fluid">
                     </div>
                 </div>
-
             </div>
         </section>
 
         <!-- Interior, Furniture and landscape design section -->
-        <section class="py-5">
+        <section class="interior py-md-100 py-50 ">
             <div class="container">
-                <div class="row align-items-start my-5">
-                    <div class="col-md-6">
-                        <h2>01. Interior design</h2>
+
+                <!-- Interior Design -->
+                <div class="row align-items-start pb-8">
+                    <div class="col-md-7">
+                        <h2 class="fw-semibold text-white">01. Interior design</h2>
                     </div>
-                    <div class="col-md-6">
-                        <p class="text-nutral-gray text-decoration-none">
+                    <div class="col-md-5">
+                        <p class="text-nutral-gray mb-4">
                             Posuere urna nec tincidunt praesent egestas maecenas
                             <span class="d-block">pharetra convallis posuere ipsum nunc aliquet bibendum</span>
                             enim consectetur adipiscing.
                         </p>
-                        <a class="small text-white text-decoration-none" href="#" aria-lable="learn more">L E A R N &nbsp;&nbsp; M O R E
-                            &nbsp;&gt;</a>
+                        <a class="small text-white text-decoration-none" href="#" aria-label="Learn more">
+                            L E A R N &nbsp;&nbsp; M O R E &nbsp;&gt;
+                        </a>
                     </div>
                 </div>
-                <hr class="border-light py-3" />
 
-                <div class="row align-items-start mb-5">
-                    <div class="col-md-6">
-                        <h2>02. Furniture design</h2>
+                <hr class="border-nutral-gray opacity-25" />
+
+                <!-- Furniture Design -->
+                <div class="row align-items-start py-8">
+                    <div class="col-md-7">
+                        <h2 class="fw-semibold text-white">02. Furniture design</h2>
                     </div>
-                    <div class="col-md-6">
-                        <p class="text-nutral-gray text-decoration-none">
+                    <div class="col-md-5">
+                        <p class="text-nutral-gray mb-4">
                             Posuere urna nec tincidunt praesent egestas maecenas
                             <span class="d-block">pharetra convallis posuere ipsum nunc aliquet bibendum</span>
                             enim consectetur adipiscing.
                         </p>
-                        <a class="small text-white text-decoration-none" href="#" aria-lable="learn more">L E A R N &nbsp;&nbsp; M O R E
-                            &nbsp;&gt;</a>
+                        <a class="small text-white text-decoration-none" href="#" aria-label="Learn more">
+                            L E A R N &nbsp;&nbsp; M O R E &nbsp;&gt;
+                        </a>
                     </div>
                 </div>
-                <hr class="border-light py-3" />
 
-                <div class="row align-items-start mb-5">
-                    <div class="col-md-6">
-                        <h2 class="design-heading">03. Landscape design</h2>
+                <hr class="border-nutral-gray opacity-25" />
+
+                <!-- Landscape Design -->
+                <div class="row align-items-start pt-8">
+                    <div class="col-md-7">
+                        <h2 class="fw-semibold text-white">03. Landscape design</h2>
                     </div>
-                    <div class="col-md-6">
-                        <p class="text-nutral-gray text-decoration-none">
+                    <div class="col-md-5">
+                        <p class="text-nutral-gray">
                             Posuere urna nec tincidunt praesent egestas maecenas
                             <span class="d-block">pharetra convallis posuere ipsum nunc aliquet bibendum</span>
                             enim consectetur adipiscing.
                         </p>
-                        <a class="small text-white text-decoration-none" href="#" aria-lable="learn more">L E A R N &nbsp;&nbsp; M O R
-                            E&nbsp;&gt;</a>
+                        <a class="small text-white text-decoration-none" href="#" aria-label="Learn more">
+                            L E A R N &nbsp;&nbsp; M O R E &nbsp;&gt;
+                        </a>
                     </div>
                 </div>
             </div>
@@ -294,68 +334,70 @@
 
         <!-- Interior section -->
         <section>
-            <div class="container-fluid">
-                <img src="./images/interior.webp"  alt="Interior" class="img-fluid">
-            </div>
+            <img src="./images/interior.webp" alt="Interior" class="img-fluid">
         </section>
 
         <!-- Blog & Newsletter Section -->
-        <section class="pt-100">
+        <section class="pt-md-100 py-50">
             <div class="container">
                 <!-- Blog Header -->
-                <div class="text-center mb-5">
+                <div class="text-center mb-3">
                     <h3 class="small text-nutral-gray">B L O G</h3>
                     <h2>The latest article</h2>
                 </div>
 
-                <!-- Blog Cards  -->
-                <div class="row justify-content-between g-4">
+                <!-- Blog Card 1  -->
+                <div class="row justify-content-between pt-6 g-25">
                     <div class="col-md-4">
-                        <div class="card border-0 h-100 text-white">
+                        <div class="card border-0 h-100 text-white pb-6">
                             <img src="./images/article_1.webp" aria-label="Article" class="card-img-top image-fluid"
                                 alt="Article 1">
                             <div class="card-body">
-                                <p class="card-text text-nutral-gray py-4">
+                                <p class="card-text text-nutral-gray py-6">
                                     Posuere urna nec tincidunt praesent egestas <span>maecenas.</span>
                                 </p>
-                                <a class="text-white small text-decoration-none mb-5 " href="#" aria-lable="learn more">L E A R N &nbsp;&nbsp; M
+                                <a class="text-white small text-decoration-none pb-100 " href="#"
+                                    aria-lable="learn more">L E A R N &nbsp;&nbsp; M
                                     O R E></a>
                             </div>
                         </div>
                     </div>
-
+                    <!-- Blog Card 2  -->
                     <div class="col-md-4">
-                        <div class="card border-0 h-100 text-white">
-                            <img src="./images/article_2.webp" class="card-img-top image-fluid "
-                                alt="Article 2">
+                        <div class="card border-0 h-100 text-white pb-6">
+                            <img src="./images/article_2.webp" class="card-img-top image-fluid " alt="Article 2">
                             <div class="card-body">
-                                <p class="card-text text-nutral-gray py-4">
+                                <p class="card-text text-nutral-gray py-6">
                                     Posuere urna nec tincidunt praesent egestas <span class="d-block">maecenas.</span>
                                 </p>
-                                <a class="text-white text-decoration-none small" href="#" aria-lable="learn more">L E A R N &nbsp;&nbsp; M O R E
+                                <a class="text-white text-decoration-none pb-100 small" href="#"
+                                    aria-lable="learn more">L E A
+                                    R N &nbsp;&nbsp; M O R E
                                     ></a>
                             </div>
                         </div>
                     </div>
-
+                    <!-- Blog Card 3  -->
                     <div class="col-md-4">
-                        <div class="card border-0 text-white">
+                        <div class="card border-0 text-white pb-6">
                             <img src="./images/article_3.webp" aria-lable="Article" class="card-img-top image-fluid"
                                 alt="Article 3">
                             <div class="card-body">
-                                <p class="card-text text-nutral-gray py-4">
+                                <p class="card-text text-nutral-gray py-6">
                                     Posuere urna nec tincidunt praesent egestas <span class="d-block">maecenas.</span>
                                 </p>
-                                <a class="text-white text-decoration-none small" href="#" aria-lable="learn more">L E A R N&nbsp;&nbsp;M O R E
+                                <a class="text-white text-decoration-none pb-100 small" href="#"
+                                    aria-lable="learn more">L E A
+                                    R N&nbsp;&nbsp;M O R E
                                     ></a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <hr class="border-light pt-5">
 
-            <div class="container py-5">
+            <hr class="border-nutral-gray mb-md-80 mb-50 opacity-25" />
+            <div class="container">
                 <div class="row justify-content-between">
                     <div class="col-md-4 mb-3 mb-md-0">
                         <h2>Newsletter</h2>
@@ -377,48 +419,57 @@
                     </div>
                 </div>
             </div>
-
         </section>
 
     </main>
 
-    <!-- Footer Section -->
+     <!----******** Footer Section *********** -->
     <footer class="bg-secondary">
         <div class="container">
             <!-- First Row: Navigation & Logo -->
             <div class="row">
-                <div class="col-md-8 py-4">
+                <div class="col-md-8 pt-127 pb-70">
                     <ul class="nav flex-wrap gap-3 justify-content-center justify-content-md-start">
                         <li><a href="#" class="nav-link text-white">Home</a></li>
                         <li><a href="#" class="nav-link text-white">About</a></li>
                         <li><a href="#" class="nav-link text-white">Services</a></li>
                         <li><a href="#" class="nav-link text-white">Team</a></li>
-                        <li><a href="#" class="nav-link text-white">Blog</a></li>
+                        <li><a href="#" class="nav-link text-white">Blog</a>
+                        </li>
                         <li><a href="#" class="nav-link text-white">Contact</a></li>
+
                     </ul>
                 </div>
-                <div class="col-md-4 text-center text-md-end py-4">
-                    <span class="nav-link fw-bold">I N T E R I A</span>
+                <div class="col-md-4 text-center text-md-end pt-127 pb-70">
+                    <span class="nav-link">I N T E R I A</span>
                 </div>
             </div>
 
-            <hr class="border-light my-4" />
+            <hr class="border-light pb-100" />
 
             <!-- Second Row: Social Icons & Text -->
-            <div class="row align-items-center py-100">
-                <div class="col-md-6 d-flex justify-content-center justify-content-md-start gap-3 mb-3 mb-md-0">
-                    <a href="https://facebook.com" aria-label="Facebook" target="_blank">
-                        <img src="./images/facebook.svg" alt="facebook" class="nav-icon">
-                    </a>
-                    <a href="https://twitter.com" aria-label="Twitter" target="_blank">
-                        <img src="./images/twitter.svg" alt="twitter" class="nav-icon">
-                    </a>
-                    <a href="https://linkedin.com" aria-label="Linkedin" target="_blank">
-                        <img src="./images/linkedin.svg" alt="linkedin" class="nav-icon">
-                    </a>
-                    <a href="https://instagram.com" aria-label="Instagram" target="_blank">
-                        <img src="./images/instagram.svg" alt="instagram" class="nav-icon">
-                    </a>
+            <div class="social-icons row align-items-center pb-160">
+                <div class="col-md-6 d-flex justify-content-center justify-content-md-start gap-3 mb-md-0">
+                    <div class="social-icon-wrapper">
+                        <a href="https://facebook.com" aria-label="Facebook" target="_blank">
+                            <img src="./images/facebook_icon.svg" alt="Facebook" class="social-icon">
+                        </a>
+                    </div>
+                    <div class="social-icon-wrapper">
+                        <a href="https://twitter.com" aria-label="Twitter" target="_blank">
+                            <img src="./images/twitter_icon.svg" alt="Twitter" class="social-icon">
+                        </a>
+                    </div>
+                    <div class="social-icon-wrapper">
+                        <a href="https://linkedin.com" aria-label="LinkedIn" target="_blank">
+                            <img src="./images/linkedin_icon.svg" alt="LinkedIn" class="social-icon">
+                        </a>
+                    </div>
+                    <div class="social-icon-wrapper">
+                        <a href="https://instagram.com" aria-label="Instagram" target="_blank">
+                            <img src="./images/instagram_icon.svg" alt="Instagram" class="social-icon">
+                        </a>
+                    </div>
                 </div>
                 <div class="col-md-6 text-center text-md-end">
                     <p class="small mb-0">
@@ -427,26 +478,30 @@
                     </p>
                 </div>
             </div>
-
-
         </div>
-        <!-- Third Row: Bottom Links -->
-        <section class="d-flex bg-primary justify-content-between align-items-center py-3">
-            <div class="container">
-                <p class="mb-2 mb-md-0 small text-center text-md-start text-center">
-                    &copy; Copyright by AltDesain-Studio - All rights reserved.
+        <!-- Second section: Bottom Links -->
+        <section class="bg-primary py-5">
+            <div class="container d-flex flex-column flex-md-row align-items-center justify-content-between">
+                <!-- Left side: Copyright -->
+                <p class="mb-2 mb-md-0 small text-center text-md-start text-white">
+                    &copy;Copyright by AltDesain-Studio - All rights reserved.
                 </p>
 
-                <div class="text-md-end align-items-center justify-content-between text-center">
-                    <a href="#" aria-lable="Terms" class="footer-link text-decoration-none text-nutral-gray me-md-5 me-3">T E R M S</a>
-                    <a href="#" aria-lable="Privacy" class="footer-link text-decoration-none text-nutral-gray ms-md-5 ms-3">P R I V A C Y</a>
+                <!-- Right side: Links -->
+                <div class="text-center text-md-end">
+                    <a href="#" aria-label="Terms"
+                        class="footer-link text-decoration-none text-nutral-gray me-md-4 me-2">T E R M S</a>
+                    <a href="#" aria-label="Privacy"
+                        class="footer-link text-decoration-none text-nutral-gray ms-md-4 ms-2">P R I V A C Y</a>
                 </div>
             </div>
         </section>
 
+
     </footer>
 
-    <!-- Bootstrap JS  -->
+
+    <!-- JS  -->
     <script>
         document.addEventListener("DOMContentLoaded", function () {
             const videoModal = document.getElementById('videoModal');
@@ -461,12 +516,9 @@
     </script>
 
 
-
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
         crossorigin="anonymous"></script>
 
 
 </body>
-
 </html>
